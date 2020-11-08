@@ -1,0 +1,11 @@
+# ignore everything
+/*
+/*/
+
+# ... but these:
+!/.gitignore
+!/alacritty/
+!/jesseduffield/
+/jesseduffield/lazygit/*
+!/jesseduffield/lazygit/config.yml
+
