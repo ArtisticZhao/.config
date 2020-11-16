@@ -8,4 +8,6 @@
 !/jesseduffield/
 /jesseduffield/lazygit/*
 !/jesseduffield/lazygit/config.yml
-
+!/zsh/
+!/ranger/
+!README.md

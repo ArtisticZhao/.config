@@ -1,5 +1,5 @@
 git:
   paging:
     colorArg: always
-    pager: diff-so-fancy
+    pager: delta --dark --paging=never --24-bit-color=never
   branchLogCmd: "git log --graph --color=always --abbrev-commit --decorate --date=relative --pretty=medium --oneline --all"
