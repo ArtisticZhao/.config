@@ -11,7 +11,7 @@ fif() {
 }
 
 find-in-file() {
-	grep --line-buffered --color=never -r "" * | fzf
+	rg --line-buffered --color=never -r "" * | fzf
 }
 zle -N find-in-file
 bindkey '^F' find-in-file

@@ -5,9 +5,11 @@
 # ... but these:
 !/.gitignore
 !/alacritty/
+# configuration of lazygit
 !/jesseduffield/
 /jesseduffield/lazygit/*
 !/jesseduffield/lazygit/config.yml
+
 !/zsh/
 !/ranger/
 !README.md
