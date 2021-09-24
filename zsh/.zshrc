@@ -10,13 +10,16 @@ HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 unsetopt nomatch
-bindkey -v
+bindkey -v  # vim key mode
 # End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
-zstyle :compinstall filename '/home/lilacsat/.zshrc'
 
-autoload -Uz compinit
-compinit
+# 自动补全
+autoload -Uz compinit && compinit
+# tab completion  case-insensitive
+setopt MENU_COMPLETE
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
+# tab menu select menu
+zstyle ':completion:*' menu select
 # End of lines added by compinstall
 
 ### Added by Zinit's installer
