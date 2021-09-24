@@ -20,7 +20,22 @@ sudo apt install zsh
 chsh /bin/zsh
 # install zinit
 git clone https://github.com/zdharma/zinit.git ~/.zinit/bin
-cp ~/.config/zsh/.zshrc
+cp ~/.config/zsh/.zshrc .
+```
+
+### Install Alacritty
+
+```
+sudo apt install cargo
+cargo install alacritty
+# remember add ~/cargo/bin to PATH
+```
+Change default terminal
+```
+# Register deepin terminal
+sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /home/lilacsat/.cargo/bin/alacritty 90
+# Select your terminal
+sudo update-alternatives --config x-terminal-emulator
 ```
 
 ## Pull the submodules

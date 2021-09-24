@@ -5,6 +5,7 @@ PATH="$PATH:$HOME/bin"
 PATH="$PATH:$HOME/.TinyTeX/bin/x86_64-linux"
 PATH="$PATH:$HOME/.local/bin/"
 PATH="$PATH:/opt/modelsim/questasim/linux_x86_64"
+PATH="$PATH:/home/lilacsat/.cargo/bin"
 
 LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/lib/x86_64-linux-gnu/"
 LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu/"
