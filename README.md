@@ -17,25 +17,55 @@ git reset --hard HEAD
 ```shell
 sudo apt install zsh
 # set zsh as default
-chsh /bin/zsh
+chsh -s $(which zsh)
 # install zinit
 git clone https://github.com/zdharma/zinit.git ~/.zinit/bin
-cp ~/.config/zsh/.zshrc .
+ln -s ~/.config/zsh/.zshrc ~/.zshrc
+# install lua for z.lua
+sudo apt install lua5.3
 ```
 
 ### Install Alacritty
 
 ```
+# install independents
 sudo apt install cargo
+sudo apt-get install cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3
 cargo install alacritty
 # remember add ~/cargo/bin to PATH
 ```
+
+Download the Nerd Fonts for the Alacritty.
+[Nerd Fonts](https://www.nerdfonts.com/font-downloads)
+Now I use the **SpaceMono** Nerd Font.
+```
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/SpaceMono.zip
+unzip SpaceMono.zip -d SpaceMono
+mv SpaceMono ~/.local/share/fonts
+fc-cache -f -v
+# fc-list | grep "<name-of-font>" to checkout the installed fonts.
+fc-list | grep  SpaceMono
+```
+
 Change default terminal
 ```
-# Register deepin terminal
+# Register alacritty terminal
 sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /home/lilacsat/.cargo/bin/alacritty 90
 # Select your terminal
 sudo update-alternatives --config x-terminal-emulator
+```
+
+### linuxbrew
+```
+wget https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
+/bin/bash ./install.sh
+```
+Use linuxbrew install some useful tools.
+```
+brew install exa
+brew install lazygit
+brew install git-delta
+brew install bat
 ```
 
 ## Pull the submodules
