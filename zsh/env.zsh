@@ -4,7 +4,7 @@ PATH="$PATH:/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/b
 PATH="$PATH:$HOME/bin"
 PATH="$PATH:$HOME/.TinyTeX/bin/x86_64-linux"
 PATH="$PATH:$HOME/.local/bin/"
-PATH="$PATH:/opt/modelsim/questasim/linux_x86_64"
+PATH="$PATH:/opt/Questasim/questasim/linux_x86_64/"
 PATH="$PATH:/home/zyh/.cargo/bin"
 
 LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/lib/x86_64-linux-gnu/"
@@ -13,6 +13,6 @@ export PATH
 export LD_LIBRARY_PATH
 export NODE_MIRROR=https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/
 
-export LM_LICENSE_FILE=/home/lilacsat/mentor.dat
-export MGLS_LICENSE_FILE=/home/lilacsat/mentor.dat
+export LM_LICENSE_FILE=/home/zyh/mentor.dat
+export MGLS_LICENSE_FILE=/home/zyh/mentor.dat
 alias licm="lmgrd -c /home/zyh/mentor.dat"
