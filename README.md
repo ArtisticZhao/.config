@@ -76,12 +76,25 @@ brew install ripgrep
 ### ranger
 
 Install ranger
+WARNNING! ranger need python3.8!
+[How to upgrade to Python 3.8 on Ubuntu 18.04 LTS](https://www.itsupportwale.com/blog/how-to-upgrade-to-python-3-8-on-ubuntu-18-04-lts/)
 
 ```shell
+# upgrade python3
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get install python3.8
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 2
+sudo update-alternatives --config python3
+# install ranger via pip
 pip3 install ranger-fm
 # for picture preview
 sudo apt install w3m-img
+# for compress
+sudo apt install atool
 ```
+
+The ranger [Keymaps](ranger/README.md)
 
 ## Pull the submodules
 

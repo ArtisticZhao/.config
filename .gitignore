@@ -13,5 +13,6 @@
 !/zsh/
 !/ranger/
 /ranger/plugins/*
+!/ranger/plugins/ranger_devicons
 !README.md
 !/zathura/
