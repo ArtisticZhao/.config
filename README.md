@@ -27,7 +27,7 @@ sudo apt install lua5.3
 
 ### Install Alacritty
 
-```
+```shell
 # install independents
 sudo apt install cargo
 sudo apt-get install cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3
@@ -38,7 +38,7 @@ cargo install alacritty
 Download the Nerd Fonts for the Alacritty.
 [Nerd Fonts](https://www.nerdfonts.com/font-downloads)
 Now I use the **SpaceMono** Nerd Font.
-```
+```shell
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/SpaceMono.zip
 unzip SpaceMono.zip -d SpaceMono
 mv SpaceMono ~/.local/share/fonts
@@ -48,7 +48,8 @@ fc-list | grep  SpaceMono
 ```
 
 Change default terminal
-```
+
+```shell
 # Register alacritty terminal
 sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /home/lilacsat/.cargo/bin/alacritty 90
 # Select your terminal
@@ -56,16 +57,30 @@ sudo update-alternatives --config x-terminal-emulator
 ```
 
 ### linuxbrew
-```
+
+```shell
 wget https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
 /bin/bash ./install.sh
 ```
+
 Use linuxbrew install some useful tools.
-```
+
+```shell
 brew install exa
 brew install lazygit
 brew install git-delta
 brew install bat
+brew install ripgrep
+```
+
+### ranger
+
+Install ranger
+
+```shell
+pip3 install ranger-fm
+# for picture preview
+sudo apt install w3m-img
 ```
 
 ## Pull the submodules

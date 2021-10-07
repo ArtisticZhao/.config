@@ -12,5 +12,6 @@
 
 !/zsh/
 !/ranger/
+/ranger/plugins/*
 !README.md
 !/zathura/

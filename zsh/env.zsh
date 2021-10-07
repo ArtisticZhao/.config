@@ -11,7 +11,9 @@ LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/lib/x86_64-linux-gnu/"
 LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu/"
 export PATH
 export LD_LIBRARY_PATH
+
 export NODE_MIRROR=https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/
+export RANGER_LOAD_DEFAULT_RC FALSE
 
 export LM_LICENSE_FILE=/home/zyh/mentor.dat
 export MGLS_LICENSE_FILE=/home/zyh/mentor.dat
