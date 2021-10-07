@@ -14,6 +14,9 @@ export LD_LIBRARY_PATH
 
 export NODE_MIRROR=https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/
 export RANGER_LOAD_DEFAULT_RC FALSE
+export VISUAL=nvim
+export EDITOR=nvim
+
 
 export LM_LICENSE_FILE=/home/zyh/mentor.dat
 export MGLS_LICENSE_FILE=/home/zyh/mentor.dat
