@@ -5,7 +5,7 @@ source ~/.config/zsh/env.zsh
 
 # Plugin zinit
 zinit light zsh-users/zsh-autosuggestions
-bindkey '^f' forward-word
+bindkey '^w' forward-word
 bindkey '^b' backward-delete-word
 
 zinit light zdharma/fast-syntax-highlighting

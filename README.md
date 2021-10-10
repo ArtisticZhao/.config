@@ -25,6 +25,8 @@ ln -s ~/.config/zsh/.zshrc ~/.zshrc
 sudo apt install lua5.3
 ```
 
+More in [Readme of zsh](zsh/README.md)
+
 ### Install Alacritty
 
 ```shell
