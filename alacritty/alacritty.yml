@@ -77,7 +77,7 @@ window:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.9
+background_opacity: 0.94
 
 scrolling:
   # Maximum number of lines in the scrollback buffer.
@@ -197,30 +197,35 @@ schemes:
 colors:
   # Default colors
   primary:
-    background: '#282a36'
-    foreground: '#f8f8f2'
+    background: '#292C3E'
+    foreground: '#EBEBEB'
+
+  # Cursor colors
+  cursor:
+    text: '#FF261E'
+    cursor: '#FF261E'
 
   # Normal colors
   normal:
-    black: '#000000'
-    red: '#ff5555'
-    green: '#50fa7b'
-    yellow: '#f1fa8c'
-    blue: '#caa9fa'
-    magenta: '#ff79c6'
-    cyan: '#8be9fd'
-    white: '#bfbfbf'
+    black: '#0d0d0d'
+    red: '#FF301B'
+    green: '#A0E521'
+    yellow: '#FFC620'
+    blue: '#1BA6FA'
+    magenta: '#8763B8'
+    cyan: '#21DEEF'
+    white: '#EBEBEB'
 
   # Bright colors
   bright:
-    black: '#575b70'
-    red: '#ff6e67'
-    green: '#5af78e'
-    yellow: '#f4f99d'
-    blue: '#caa9fa'
-    magenta: '#ff92d0'
-    cyan: '#9aedfe'
-    white: '#e6e6e6'
+    black: '#6D7070'
+    red: '#FF4352'
+    green: '#B8E466'
+    yellow: '#FFD750'
+    blue: '#1BA6FA'
+    magenta: '#A578EA'
+    cyan: '#73FBF1'
+    white: '#FEFEF8'
 
 cursor:
   # Cursor style
@@ -266,6 +271,9 @@ mouse:
   # on them. The available modifiers are documented in the key binding section.
   #modifiers: None
 key_bindings:
-    - { key: Equals,   mods: Control|Alt,    action: IncreaseFontSize }
-    - { key: Minus, mods: Control,       action: DecreaseFontSize }
-
+  - {
+      key: Equals,
+      mods: Control|Alt,
+      action: IncreaseFontSize
+    }
+  - { key: Minus, mods: Control, action: DecreaseFontSize }

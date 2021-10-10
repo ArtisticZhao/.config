@@ -48,3 +48,5 @@ zinit light-mode for \
 # source more configs
 source ~/.config/zsh/zshrc
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

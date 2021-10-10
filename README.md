@@ -35,8 +35,9 @@ cargo install alacritty
 # remember add ~/cargo/bin to PATH
 ```
 
-Download the Nerd Fonts for the Alacritty.
-[Nerd Fonts](https://www.nerdfonts.com/font-downloads)
+**Download the Nerd Fonts for the Alacritty.**
+
+[Nerd Fonts](https://www.nerdfonts.com/font-downloads)  
 Now I use the **SpaceMono** Nerd Font.
 ```shell
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/SpaceMono.zip
@@ -47,13 +48,19 @@ fc-cache -f -v
 fc-list | grep  SpaceMono
 ```
 
-Change default terminal
+**Change default terminal**
 
 ```shell
 # Register alacritty terminal
 sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /home/lilacsat/.cargo/bin/alacritty 90
 # Select your terminal
 sudo update-alternatives --config x-terminal-emulator
+```
+
+**[Alacritty color theme](https://github.com/rajasegar/alacritty-themes)**
+
+```shell
+npm i -g alacritty-themes
 ```
 
 ### linuxbrew
@@ -71,6 +78,7 @@ brew install lazygit
 brew install git-delta
 brew install bat
 brew install ripgrep
+brew install fd
 ```
 
 ### ranger
@@ -106,6 +114,15 @@ Use the git submodule to manage
 
 ```shell
 git submodule update --init --recursive
+```
+
+### FZF
+
+**Install**
+```
+brew install fzf
+# To install useful key bindings and fuzzy completion:
+$(brew --prefix)/opt/fzf/install
 ```
 
 ## Useful tools

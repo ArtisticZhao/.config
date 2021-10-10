@@ -1,14 +1,14 @@
-# source ~/.config/zsh/fzf.zsh
+source ~/.config/zsh/fzf.zsh
 source ~/.config/zsh/aliases.zsh
 source ~/.config/zsh/env.zsh
 # source ~/.config/zsh/vi.zsh
 
 # Plugin zinit
 zinit light zsh-users/zsh-autosuggestions
-
-zinit light zdharma/fast-syntax-highlighting
 bindkey '^f' forward-word
 bindkey '^b' backward-delete-word
+
+zinit light zdharma/fast-syntax-highlighting
 
 zinit light skywind3000/z.lua
 alias zb='z -b'
@@ -16,12 +16,15 @@ alias zb='z -b'
 zinit ice depth=1; zinit light romkatv/powerlevel10k
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.config/zsh/p10k.zsh ]] || source ~/.config/zsh/p10k.zsh
+
 zinit light zsh-users/zsh-history-substring-search
+# arrow up % arrow down
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 bindkey -M vicmd 'k' history-substring-search-up
 bindkey -M vicmd 'j' history-substring-search-down
 
 zinit ice depth=1; zinit light jeffreytse/zsh-vi-mode
+# Home and End key as normal
 bindkey  "^[[H"   beginning-of-line
 bindkey  "^[[F"   end-of-line
