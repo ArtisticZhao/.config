@@ -1,6 +1,7 @@
 # ZSH
 
 ## Keybinds and functions
+Show keycode in zsh: press [c-v] then press the key.
 
 Use [c-w]/[c-b] to go forward-word/backward-delete-word in zsh-autosuggestions.
 
