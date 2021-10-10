@@ -14,5 +14,6 @@
 !/ranger/
 /ranger/plugins/*
 !/ranger/plugins/ranger_devicons
+!/ranger/plugins/ranger_zlua.py
 !README.md
 !/zathura/

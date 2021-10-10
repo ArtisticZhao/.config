@@ -13,9 +13,12 @@ export PATH
 export LD_LIBRARY_PATH
 
 export NODE_MIRROR=https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/
+           
+# for Ranger
 export RANGER_LOAD_DEFAULT_RC FALSE
 export VISUAL=nvim
 export EDITOR=nvim
+export RANGER_ZLUA="/home/zyh/.zinit/plugins/skywind3000---z.lua/z.lua"
 
 
 export LM_LICENSE_FILE=/home/zyh/mentor.dat
