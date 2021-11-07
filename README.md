@@ -19,7 +19,7 @@ sudo apt install zsh
 # set zsh as default
 chsh -s $(which zsh)
 # install zinit
-git clone https://github.com/zdharma/zinit.git ~/.zinit/bin
+git clone https://github.com/zdharma-continuum/zinit.git ~/.zinit/bin
 ln -s ~/.config/zsh/.zshrc ~/.zshrc
 # install lua for z.lua
 sudo apt install lua5.3
@@ -59,10 +59,19 @@ sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emula
 sudo update-alternatives --config x-terminal-emulator
 ```
 
+**Add Desktop Entry**
+
+```shell
+mkdir ~/.icons
+cp ~/.config/alacritty/alacritty-term.png ~/.icons
+cp ~/.config/alacritty/Alacritty.desktop ~/.local/share/applications/
+# Maybe need right click desktop file and check the 'allow launching' on the desktop
+```
+
 **[Alacritty color theme](https://github.com/rajasegar/alacritty-themes)**
 
 ```shell
-npm i -g alacritty-themes
+sudo npm i -g alacritty-themes
 ```
 
 ### linuxbrew

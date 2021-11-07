@@ -8,7 +8,7 @@ zinit light zsh-users/zsh-autosuggestions
 bindkey '^w' forward-word
 bindkey '^b' backward-delete-word
 
-zinit light zdharma/fast-syntax-highlighting
+zinit light zdharma-continuum/fast-syntax-highlighting
 
 zinit light skywind3000/z.lua
 alias zb='z -b'

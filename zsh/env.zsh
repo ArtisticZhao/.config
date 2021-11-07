@@ -5,7 +5,7 @@ PATH="$PATH:$HOME/bin"
 PATH="$PATH:$HOME/.TinyTeX/bin/x86_64-linux"
 PATH="$PATH:$HOME/.local/bin/"
 PATH="$PATH:/opt/Questasim/questasim/linux_x86_64/"
-PATH="$PATH:/home/zyh/.cargo/bin"
+PATH="$PATH:/home/lilacsat/.cargo/bin"
 
 LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/lib/x86_64-linux-gnu/"
 LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu/"
@@ -13,14 +13,14 @@ export PATH
 export LD_LIBRARY_PATH
 
 export NODE_MIRROR=https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/
-           
+
 # for Ranger
 export RANGER_LOAD_DEFAULT_RC FALSE
 export VISUAL=nvim
 export EDITOR=nvim
-export RANGER_ZLUA="/home/zyh/.zinit/plugins/skywind3000---z.lua/z.lua"
+export RANGER_ZLUA="/home/lilacsat/.zinit/plugins/skywind3000---z.lua/z.lua"
 
 
-export LM_LICENSE_FILE=/home/zyh/mentor.dat
-export MGLS_LICENSE_FILE=/home/zyh/mentor.dat
-alias licm="lmgrd -c /home/zyh/mentor.dat"
+export LM_LICENSE_FILE=/home/lilacsat/mentor.dat
+export MGLS_LICENSE_FILE=/home/lilacsat/mentor.dat
+alias licm="lmgrd -c /home/lilacsat/mentor.dat"
