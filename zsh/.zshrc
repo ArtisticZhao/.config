@@ -13,14 +13,6 @@ unsetopt nomatch
 bindkey -v  # vim key mode
 # End of lines configured by zsh-newuser-install
 
-# 自动补全
-autoload -Uz compinit && compinit
-# tab completion  case-insensitive
-setopt MENU_COMPLETE
-zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
-# tab menu select menu
-zstyle ':completion:*' menu select
-# End of lines added by compinstall
 
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
