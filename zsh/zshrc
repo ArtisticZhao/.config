@@ -15,8 +15,8 @@ source ~/.config/zsh/complete.zsh
 # 按ctrl+w 前进一个单词
 # 按ctrl+b 后退并删除一个单词
 zinit light zsh-users/zsh-autosuggestions
-bindkey '^w' forward-word
-bindkey '^b' backward-delete-word
+bindkey '^W' forward-word
+bindkey '^B' backward-delete-word
 
 # 语法高亮插件
 zinit light zdharma-continuum/fast-syntax-highlighting
