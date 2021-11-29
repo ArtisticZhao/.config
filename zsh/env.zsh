@@ -16,8 +16,8 @@ export NODE_MIRROR=https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/
 
 # for Ranger
 export RANGER_LOAD_DEFAULT_RC FALSE
-export VISUAL=nvim
-export EDITOR=nvim
+export VISUAL=vim
+export EDITOR=vim
 export RANGER_ZLUA="/home/lilacsat/.zinit/plugins/skywind3000---z.lua/z.lua"
 
 
