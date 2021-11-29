@@ -195,37 +195,32 @@ schemes:
       cyan: '#73FBF1'
       white: '#FEFEF8'
 colors:
-  # Default colors
+  name: 3024 (dark)
+  author: Chris Kempson
   primary:
-    background: '#292C3E'
-    foreground: '#EBEBEB'
-
-  # Cursor colors
+    background: "#090300"
+    foreground: "#a5a2a2"
   cursor:
-    text: '#FF261E'
-    cursor: '#FF261E'
-
-  # Normal colors
+    text: "#090300"
+    cursor: "#a5a2a2"
   normal:
-    black: '#0d0d0d'
-    red: '#FF301B'
-    green: '#A0E521'
-    yellow: '#FFC620'
-    blue: '#1BA6FA'
-    magenta: '#8763B8'
-    cyan: '#21DEEF'
-    white: '#EBEBEB'
-
-  # Bright colors
+    black: "#090300"
+    red: "#db2d20"
+    green: "#01a252"
+    yellow: "#fded02"
+    blue: "#01a0e4"
+    magenta: "#a16a94"
+    cyan: "#b5e4f4"
+    white: "#a5a2a2"
   bright:
-    black: '#6D7070'
-    red: '#FF4352'
-    green: '#B8E466'
-    yellow: '#FFD750'
-    blue: '#1BA6FA'
-    magenta: '#A578EA'
-    cyan: '#73FBF1'
-    white: '#FEFEF8'
+    black: "#5c5855"
+    red: "#db2d20"
+    green: "#01a252"
+    yellow: "#fded02"
+    blue: "#01a0e4"
+    magenta: "#a16a94"
+    cyan: "#b5e4f4"
+    white: "#f7f7f7"
 
 cursor:
   # Cursor style

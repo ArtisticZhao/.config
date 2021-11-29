@@ -37,7 +37,7 @@ find-in-file() {
     [[ -n $selected ]] && vim $selected # open multiple files in editor
 }
 zle -N find-in-file
-bindkey '^f' find-in-file
+# bindkey '^f' find-in-file
 
 # fh - repeat history
 fh() {

@@ -70,6 +70,9 @@ cp ~/.config/alacritty/Alacritty.desktop ~/.local/share/applications/
 
 **[Alacritty color theme](https://github.com/rajasegar/alacritty-themes)**
 
+Here mark some themes:
+- 3024.dark
+
 ```shell
 sudo npm i -g alacritty-themes
 ```
