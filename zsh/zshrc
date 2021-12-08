@@ -14,9 +14,7 @@ source ~/.config/zsh/complete.zsh
 # 按-> 全部补全
 # 按ctrl+w 前进一个单词
 # 按ctrl+b 后退并删除一个单词
-zinit light zsh-users/zsh-autosuggestions
-bindkey '^W' forward-word
-bindkey '^B' backward-delete-word
+zinit load zsh-users/zsh-autosuggestions
 
 # 语法高亮插件
 zinit light zdharma-continuum/fast-syntax-highlighting
@@ -40,6 +38,7 @@ bindkey -M vicmd 'k' history-substring-search-up
 bindkey -M vicmd 'j' history-substring-search-down
 
 zinit ice depth=1; zinit light jeffreytse/zsh-vi-mode
+
 # Home and End key as normal
 bindkey  "^[[H"   beginning-of-line
 bindkey  "^[[F"   end-of-line

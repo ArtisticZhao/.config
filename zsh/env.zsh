@@ -18,7 +18,7 @@ export NODE_MIRROR=https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/
 export RANGER_LOAD_DEFAULT_RC FALSE
 export VISUAL=vim
 export EDITOR=vim
-export RANGER_ZLUA="/home/lilacsat/.zinit/plugins/skywind3000---z.lua/z.lua"
+export RANGER_ZLUA="/home/lilacsat/.local/share/zinit/plugins/skywind3000---z.lua/z.lua"
 
 
 export LM_LICENSE_FILE=/home/lilacsat/mentor.dat
