@@ -18,8 +18,8 @@ git reset --hard HEAD
 sudo apt install zsh
 # set zsh as default
 chsh -s $(which zsh)
-# install zinit
-git clone https://github.com/zdharma-continuum/zinit.git ~/.zinit/bin
+## install zinit. The new version of zinit can be self installed.
+# git clone https://github.com/zdharma-continuum/zinit.git ~/.zinit/bin
 ln -s ~/.config/zsh/.zshrc ~/.zshrc
 # install lua for z.lua
 sudo apt install lua5.3
@@ -70,12 +70,12 @@ cp ~/.config/alacritty/Alacritty.desktop ~/.local/share/applications/
 
 **[Alacritty color theme](https://github.com/rajasegar/alacritty-themes)**
 
-Here mark some themes:
-- 3024.dark
-
 ```shell
 sudo npm i -g alacritty-themes
 ```
+
+Here mark some themes:
+- 3024.dark
 
 ### linuxbrew
 
