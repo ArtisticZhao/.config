@@ -130,6 +130,16 @@ Use the git submodule to manage
 git submodule update --init --recursive
 ```
 
+- ranger_devicons
+
+```
+git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
+```
+
+- z.lua
+
+[Integration with ranger](https://github.com/skywind3000/z.lua/issues/61)
+
 ### FZF
 
 **Install**
