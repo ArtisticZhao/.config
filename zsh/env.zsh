@@ -6,9 +6,11 @@ PATH="$PATH:$HOME/.TinyTeX/bin/x86_64-linux"
 PATH="$PATH:$HOME/.local/bin/"
 PATH="$PATH:/opt/Questasim/questasim/linux_x86_64/"
 PATH="$PATH:/home/lilacsat/.cargo/bin"
+PATH="$PATH:/home/lilacsat/bin/"
 
 LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/lib/x86_64-linux-gnu/"
 LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu/"
+LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/opt/WindTerm_2.3.1/lib/"
 export PATH
 export LD_LIBRARY_PATH
 
@@ -21,6 +23,6 @@ export EDITOR=vim
 export RANGER_ZLUA="/home/lilacsat/.local/share/zinit/plugins/skywind3000---z.lua/z.lua"
 
 
-export LM_LICENSE_FILE=/home/lilacsat/mentor.dat
-export MGLS_LICENSE_FILE=/home/lilacsat/mentor.dat
-alias licm="lmgrd -c /home/lilacsat/mentor.dat"
+export LM_LICENSE_FILE=/opt/Questasim/mentor.dat
+export MGLS_LICENSE_FILE=/opt/Questasim/mentor.dat
+alias licm="lmgrd -c /opt/Questasim/mentor.dat"

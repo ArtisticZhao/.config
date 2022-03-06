@@ -98,6 +98,8 @@ zinit light zsh-users/zsh-autosuggestions
 function zvm_bindkey_autosuggestions() {
     zvm_bindkey viins '^W' forward-word
     zvm_bindkey viins '^B' backward-delete-word
+    zvm_bindkey viins '^[[A' history-substring-search-up
+    zvm_bindkey viins '^[[B' history-substring-search-down
 }
 zvm_after_init_commands+=(zvm_bindkey_autosuggestions)
 
@@ -114,6 +116,7 @@ zinit light zsh-users/zsh-history-substring-search
 # arrow up % arrow down
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
+bindkey '^R' history-incremental-pattern-search-backward
 bindkey -M vicmd 'k' history-substring-search-up
 bindkey -M vicmd 'j' history-substring-search-down
 
