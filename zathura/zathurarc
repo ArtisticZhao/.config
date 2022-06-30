@@ -7,9 +7,12 @@ set synctex-editor-command "nvr --remote-silent %f -c %l"
 # set recolor-darkcolor \#222222
 # # set recolor-keephue
 # set default-bg \#FAF9DE
+set highlight-transparency 0.1
 
 map o zoom out
 map i zoom in
 
 map K scroll half-up
 map J scroll half-down
+
+

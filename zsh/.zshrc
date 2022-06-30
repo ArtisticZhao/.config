@@ -83,6 +83,7 @@ unsetopt nomatch
 zinit light spaceship-prompt/spaceship-prompt
 export SPACESHIP_TIME_SHOW=true
 export SPACESHIP_VI_MODE_SHOW=false
+export SPACESHIP_NODE_SHOW=false
 
 # ----- vi-mode 增强
 zinit ice depth=1
@@ -127,4 +128,4 @@ bindkey -v
 ### My indepent config
 source ~/.config/zsh/env.zsh
 source ~/.config/zsh/aliases.zsh
-# source ~/.config/zsh/fzf.zsh
+source ~/.config/zsh/fzf.zsh

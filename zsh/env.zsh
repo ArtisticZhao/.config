@@ -7,6 +7,7 @@ PATH="$PATH:$HOME/.local/bin/"
 PATH="$PATH:/opt/Questasim/questasim/linux_x86_64/"
 PATH="$PATH:/home/lilacsat/.cargo/bin"
 PATH="$PATH:/home/lilacsat/bin/"
+PATH="$PATH:/usr/local/go/bin"
 
 LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/lib/x86_64-linux-gnu/"
 LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu/"
